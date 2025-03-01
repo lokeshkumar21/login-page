@@ -1,0 +1,79 @@
+.container{
+    width:100vw;
+    height: 100vh;
+    background: url(./z1.jpg);
+    display: grid;
+    place-content: center;
+    color:#fff;
+    background-size: cover;
+    background-position: center;
+
+}
+.form{
+    background-color: red;
+    width: 400px;
+    height: 480px;
+    box-sizing: border-box;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 8px;
+    padding: 0px 20px;
+    user-select: none;
+}
+.title{
+    color:#fff;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#name,#password{
+    width: 95%;
+    border:none;
+    background-color: #ffffffcb;
+    font-size: 18px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.checkbox{
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    border: none;
+    cursor: pointer;
+    border:2px solid black;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    padding: 10px ;
+    margin: 10px 0;
+    border:none;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+}
+span{
+    font-weight: 700;
+}
+label{
+    cursor: pointer;
+}
